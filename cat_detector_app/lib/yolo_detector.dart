@@ -57,7 +57,7 @@ class _SegmentCandidate {
 class YoloDetector {
   YoloDetector({
     this.inputSize = 320,
-    this.confThreshold = 0.8,
+    this.confThreshold = 0.6,
     this.iouThreshold = 0.45,
     this.catClassId = 0,
     this.maskThreshold = 0.5,

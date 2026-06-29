@@ -25,7 +25,7 @@ class CameraPage extends StatefulWidget {
 }
 
 class _CameraPageState extends State<CameraPage> with WidgetsBindingObserver {
-  static const _requiredConfirmFrames = 2;
+  static const _requiredConfirmFrames = 1;
   static const _inferenceIntervalMs = 350;
 
   final _detector = DetectionService.instance.detector;

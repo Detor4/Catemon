@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+mlvenv/
+venv/
+.env
+
+# YOLO / ML (katta fayllar)
+runs/
+*.pt
+yolo_dataset/
+negative_datasets/
+feral-cat-segmentation-dataset/
+Dog Segmentation/
+
+# Flutter build (agar cat_detector_app ichida ishlasangiz ham ishlaydi)
+cat_detector_app/build/
+cat_detector_app/.dart_tool/
